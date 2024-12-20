@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { Picker } from '@react-native-picker/picker';
+
 import {
   SafeAreaView,
   View,
   Text,
   TextInput,
   StyleSheet,
-  Picker,
   Button,
   Alert,
   Switch,
@@ -170,3 +171,5 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+
